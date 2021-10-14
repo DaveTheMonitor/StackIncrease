@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<StackIncreaseXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!--The stack size for standard items. This will affect any item that normally stacks to 100.-->
+    <StackSize>1000</StackSize>
+
+    <!--The stack size for Gold Pieces.-->
+    <GPStackSize>640000</GPStackSize>
+
+    <!--If true, the stack size of items will only be increased if the item can stack to 100 or higher.
+        If false, items will have their stack sizes increased if they don't have durability.-->
+    <Only100Stacks>true</Only100Stacks>
+</StackIncreaseXML>
